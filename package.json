@@ -4,7 +4,7 @@
   "description": "testing with mocha",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "karma start",
     "build": "webpack"
   },
   "repository": {
@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/ma-bo-do-fu/frontendTesting#readme",
   "devDependencies": {
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-mocha": "^1.1.1",
+    "karma-webpack": "^1.8.0",
     "mocha": "^3.0.2",
     "webpack": "^1.13.2"
   }
